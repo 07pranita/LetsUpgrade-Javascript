@@ -1,2 +1,2 @@
 # LetsUpgrade-Javascript
-All assignment of javascript
+All assignments of javascript for the course.
