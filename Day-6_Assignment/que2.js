@@ -1,3 +1,5 @@
+//bus record management and permanent storage
+
 window.onload = function() {
     let initialbuses = [];
 
