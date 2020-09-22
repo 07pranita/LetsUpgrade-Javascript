@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Site</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Shop-360</h1>
+      <div class="search">
+        <input type="search" onkeyup="searchProduct(this.value)" placeholder="Search for product">
+        <input type="search" onkeyup="filterByMaxPrice()" placeholder="Maximum price" id="max-price">
+        <input type="search" onkeyup="filterByMinPrice()" placeholder="Minimum price" id='min-price'>
+      </div>
+    </div>
+
+    <div class="products">
+      <div class="productwrapper" id="productwrapper">
+      </div>
+    </div>
+    <hr>
+    <div class="products">
+      <center>
+        <h1>Cart</h1>
+        Total Items = 
+        <button onclick="countCartItems()" id="cart-count"></button>
+      </center>
+      <div class="productwrapper" id="productwrapper">
+      </div>
+    </div>
+
+
+    <script src="shopping.js"></script>
+  </body>
+</html>
